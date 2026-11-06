@@ -1,0 +1,1418 @@
+
+=== Fase F | 2026-10-14T09:28:31 | 4d80d5964c2e | 1 run ===
+
+=== Fase F | 2026-10-14T09:29:25 | 4d80d5964c2e | 1 run ===
+
+=== Fase F | 2026-10-14T09:30:01 | 4d80d5964c2e | 23 run ===
+
+[1/23] laporgub_F0a_V1_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0a_V1.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[2/23] laporgub_F0b_V7_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[3/23] laporgub_F0c_V4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0c_V4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[4/23] laporgub_F0d_V6_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0d_V6.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[5/23] laporgub_F1a_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1a_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[6/23] laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1b_fdeg_linear_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[7/23] laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1c_fdeg_skalar_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[8/23] laporgub_F1d_fdeg_film_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1d_fdeg_film_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[9/23] laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1e_fdeg_kuantil20.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[10/23] laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1f_fdeg_kuantil5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[11/23] laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2a_konteks_tgca_bias.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[12/23] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[13/23] laporgub_F3a_layernorm_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3a_layernorm.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[14/23] laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3b_layernorm_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[15/23] laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4a_V7_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[16/23] laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4b_V7_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[17/23] laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4c_V7_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[18/23] laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4d_V1_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[19/23] laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4e_V1_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[20/23] laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4f_V1_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[21/23] laporgub_F5a_tfidf_10k_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5a_tfidf_10k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[22/23] laporgub_F5b_tfidf_50k_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5b_tfidf_50k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[23/23] laporgub_F5c_tfidf_mindf5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5c_tfidf_mindf5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+=== Fase F | 2026-10-14T09:31:49 | 4d80d5964c2e | 23 run ===
+
+[1/23] laporgub_F0a_V1_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0a_V1.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 33137.27it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 1: loss latih 1.5335 | val Macro-F1 54.72 | 121 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 2: loss latih 0.8506 | val Macro-F1 57.54 | 125 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 3: loss latih 0.4731 | val Macro-F1 59.87 | 120 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 4: loss latih 0.2675 | val Macro-F1 62.04 | 110 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 5: loss latih 0.1400 | val Macro-F1 60.93 | 114 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 6: loss latih 0.0791 | val Macro-F1 62.49 | 105 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 7: loss latih 0.0410 | val Macro-F1 64.18 | 103 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 8: loss latih 0.0214 | val Macro-F1 64.11 | 102 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 9: loss latih 0.0103 | val Macro-F1 63.67 | 100 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] epoch 10: loss latih 0.0054 | val Macro-F1 64.51 | 100 dtk
+    [laporgub_F0a_V1_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 64.51
+  -> selesai
+
+[2/23] laporgub_F0b_V7_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 14854.17it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 1: loss latih 1.4529 | val Macro-F1 56.29 | alpha_rerata 0.559 | a_L_rerata 0.008 | 114 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 2: loss latih 0.7326 | val Macro-F1 59.47 | alpha_rerata 0.387 | a_L_rerata 0.000 | 109 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 3: loss latih 0.3098 | val Macro-F1 61.13 | alpha_rerata 0.337 | a_L_rerata 0.000 | 112 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 4: loss latih 0.1272 | val Macro-F1 63.58 | alpha_rerata 0.334 | a_L_rerata 0.002 | 112 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 5: loss latih 0.0955 | val Macro-F1 62.11 | alpha_rerata 0.316 | a_L_rerata 0.010 | 111 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 6: loss latih 0.0269 | val Macro-F1 62.43 | alpha_rerata 0.317 | a_L_rerata 0.009 | 112 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 7: loss latih 0.0111 | val Macro-F1 64.77 | alpha_rerata 0.313 | a_L_rerata 0.009 | 113 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 8: loss latih 0.0059 | val Macro-F1 65.01 | alpha_rerata 0.317 | a_L_rerata 0.009 | 113 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 9: loss latih 0.0016 | val Macro-F1 64.84 | alpha_rerata 0.320 | a_L_rerata 0.009 | 112 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] epoch 10: loss latih 0.0011 | val Macro-F1 65.20 | alpha_rerata 0.322 | a_L_rerata 0.009 | 113 dtk
+    [laporgub_F0b_V7_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 65.20
+  -> selesai
+
+[3/23] laporgub_F0c_V4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0c_V4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 26684.25it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 1: loss latih 1.4465 | val Macro-F1 56.50 | alpha_rerata 0.444 | 112 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 2: loss latih 0.6638 | val Macro-F1 60.84 | alpha_rerata 0.315 | 109 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 3: loss latih 0.2584 | val Macro-F1 62.81 | alpha_rerata 0.271 | 113 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 4: loss latih 0.1052 | val Macro-F1 63.68 | alpha_rerata 0.267 | 119 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 5: loss latih 0.0382 | val Macro-F1 64.92 | alpha_rerata 0.260 | 119 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 6: loss latih 0.0182 | val Macro-F1 63.52 | alpha_rerata 0.263 | 120 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 7: loss latih 0.0087 | val Macro-F1 66.02 | alpha_rerata 0.260 | 119 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 8: loss latih 0.0043 | val Macro-F1 65.32 | alpha_rerata 0.266 | 120 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 9: loss latih 0.0017 | val Macro-F1 65.72 | alpha_rerata 0.269 | 121 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] epoch 10: loss latih 0.0007 | val Macro-F1 65.88 | alpha_rerata 0.271 | 112 dtk
+    [laporgub_F0c_V4_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 66.02
+  -> selesai
+
+[4/23] laporgub_F0d_V6_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0d_V6.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 35799.05it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 1: loss latih 1.5596 | val Macro-F1 53.64 | alpha_rerata 0.574 | 110 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 2: loss latih 0.9642 | val Macro-F1 56.24 | alpha_rerata 0.404 | 110 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 3: loss latih 0.4979 | val Macro-F1 58.95 | alpha_rerata 0.371 | 121 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 4: loss latih 0.2426 | val Macro-F1 63.68 | alpha_rerata 0.333 | 120 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 5: loss latih 0.1072 | val Macro-F1 63.91 | alpha_rerata 0.333 | 119 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 6: loss latih 0.0545 | val Macro-F1 63.34 | alpha_rerata 0.338 | 130 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 7: loss latih 0.0253 | val Macro-F1 65.55 | alpha_rerata 0.338 | 134 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 8: loss latih 0.0106 | val Macro-F1 65.22 | alpha_rerata 0.337 | 132 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 9: loss latih 0.0034 | val Macro-F1 65.38 | alpha_rerata 0.338 | 129 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] epoch 10: loss latih 0.0010 | val Macro-F1 66.40 | alpha_rerata 0.342 | 127 dtk
+    [laporgub_F0d_V6_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 66.40
+  -> selesai
+
+[5/23] laporgub_F1a_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1a_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 14180.40it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 1: loss latih 1.4576 | val Macro-F1 56.13 | alpha_rerata 0.568 | a_L_rerata 0.012 | 130 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 2: loss latih 0.7188 | val Macro-F1 57.98 | alpha_rerata 0.397 | a_L_rerata 0.008 | 130 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 3: loss latih 0.3099 | val Macro-F1 63.09 | alpha_rerata 0.343 | a_L_rerata 0.000 | 137 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 4: loss latih 0.1177 | val Macro-F1 63.39 | alpha_rerata 0.344 | a_L_rerata 0.000 | 142 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 5: loss latih 0.0497 | val Macro-F1 62.78 | alpha_rerata 0.327 | a_L_rerata 0.000 | 135 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 6: loss latih 0.0213 | val Macro-F1 63.46 | alpha_rerata 0.327 | a_L_rerata 0.000 | 131 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 7: loss latih 0.0095 | val Macro-F1 64.50 | alpha_rerata 0.326 | a_L_rerata 0.000 | 129 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 8: loss latih 0.0041 | val Macro-F1 65.93 | alpha_rerata 0.326 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 9: loss latih 0.0021 | val Macro-F1 64.41 | alpha_rerata 0.330 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] epoch 10: loss latih 0.0008 | val Macro-F1 65.32 | alpha_rerata 0.331 | a_L_rerata 0.000 | 130 dtk
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 65.93
+  -> selesai
+
+[6/23] laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1b_fdeg_linear_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 17599.10it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 1: loss latih 1.4596 | val Macro-F1 55.68 | alpha_rerata 0.606 | a_L_rerata 0.051 | 142 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 2: loss latih 0.7366 | val Macro-F1 58.84 | alpha_rerata 0.450 | a_L_rerata 0.017 | 129 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 3: loss latih 0.3188 | val Macro-F1 60.34 | alpha_rerata 0.427 | a_L_rerata 0.016 | 127 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 4: loss latih 0.1253 | val Macro-F1 63.83 | alpha_rerata 0.427 | a_L_rerata 0.016 | 126 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 5: loss latih 0.0512 | val Macro-F1 63.37 | alpha_rerata 0.429 | a_L_rerata 0.016 | 128 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 6: loss latih 0.0230 | val Macro-F1 64.78 | alpha_rerata 0.421 | a_L_rerata 0.016 | 128 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 7: loss latih 0.0117 | val Macro-F1 65.90 | alpha_rerata 0.425 | a_L_rerata 0.056 | 100 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 8: loss latih 0.0064 | val Macro-F1 65.62 | alpha_rerata 0.427 | a_L_rerata 0.076 | 111 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 9: loss latih 0.0022 | val Macro-F1 64.67 | alpha_rerata 0.426 | a_L_rerata 0.076 | 121 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] epoch 10: loss latih 0.0008 | val Macro-F1 64.92 | alpha_rerata 0.426 | a_L_rerata 0.076 | 132 dtk
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 65.90
+  -> selesai
+
+[7/23] laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1c_fdeg_skalar_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 17717.22it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 1: loss latih 1.4486 | val Macro-F1 55.44 | alpha_rerata 0.553 | a_L_rerata 0.067 | 126 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 2: loss latih 0.7488 | val Macro-F1 58.23 | alpha_rerata 0.352 | a_L_rerata 0.089 | 120 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 3: loss latih 0.3373 | val Macro-F1 61.49 | alpha_rerata 0.295 | a_L_rerata 0.087 | 123 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 4: loss latih 0.1306 | val Macro-F1 63.25 | alpha_rerata 0.281 | a_L_rerata 0.088 | 120 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 5: loss latih 0.0586 | val Macro-F1 62.29 | alpha_rerata 0.269 | a_L_rerata 0.087 | 126 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 6: loss latih 0.0228 | val Macro-F1 63.51 | alpha_rerata 0.264 | a_L_rerata 0.087 | 127 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 7: loss latih 0.0123 | val Macro-F1 64.95 | alpha_rerata 0.268 | a_L_rerata 0.087 | 125 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 8: loss latih 0.0050 | val Macro-F1 64.12 | alpha_rerata 0.273 | a_L_rerata 0.087 | 130 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 9: loss latih 0.0017 | val Macro-F1 64.48 | alpha_rerata 0.277 | a_L_rerata 0.087 | 130 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] epoch 10: loss latih 0.0007 | val Macro-F1 65.12 | alpha_rerata 0.277 | a_L_rerata 0.087 | 119 dtk
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 65.12
+  -> selesai
+
+[8/23] laporgub_F1d_fdeg_film_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1d_fdeg_film_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 22087.68it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 1: loss latih 1.4564 | val Macro-F1 54.62 | alpha_rerata 0.537 | a_L_rerata 0.075 | 145 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 2: loss latih 0.7560 | val Macro-F1 57.15 | alpha_rerata 0.367 | a_L_rerata 0.142 | 144 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 3: loss latih 0.3458 | val Macro-F1 62.57 | alpha_rerata 0.299 | a_L_rerata 0.101 | 135 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 4: loss latih 0.1323 | val Macro-F1 62.87 | alpha_rerata 0.272 | a_L_rerata 0.100 | 144 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 5: loss latih 0.0573 | val Macro-F1 63.64 | alpha_rerata 0.268 | a_L_rerata 0.100 | 138 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 6: loss latih 0.0220 | val Macro-F1 63.59 | alpha_rerata 0.277 | a_L_rerata 0.100 | 128 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 7: loss latih 0.0107 | val Macro-F1 65.10 | alpha_rerata 0.271 | a_L_rerata 0.100 | 129 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 8: loss latih 0.0048 | val Macro-F1 65.58 | alpha_rerata 0.283 | a_L_rerata 0.100 | 133 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 9: loss latih 0.0020 | val Macro-F1 65.61 | alpha_rerata 0.286 | a_L_rerata 0.100 | 136 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] epoch 10: loss latih 0.0008 | val Macro-F1 65.99 | alpha_rerata 0.287 | a_L_rerata 0.100 | 142 dtk
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 65.99
+  -> selesai
+
+[9/23] laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1e_fdeg_kuantil20.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 21811.31it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 1: loss latih 1.4657 | val Macro-F1 58.12 | alpha_rerata 0.563 | a_L_rerata 0.065 | 141 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 2: loss latih 0.7381 | val Macro-F1 59.58 | alpha_rerata 0.403 | a_L_rerata 0.073 | 137 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 3: loss latih 0.3131 | val Macro-F1 60.11 | alpha_rerata 0.353 | a_L_rerata 0.029 | 123 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 4: loss latih 0.1190 | val Macro-F1 62.55 | alpha_rerata 0.345 | a_L_rerata 0.020 | 124 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 5: loss latih 0.0497 | val Macro-F1 64.18 | alpha_rerata 0.349 | a_L_rerata 0.020 | 143 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 6: loss latih 0.0196 | val Macro-F1 62.74 | alpha_rerata 0.350 | a_L_rerata 0.020 | 150 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 7: loss latih 0.0072 | val Macro-F1 64.38 | alpha_rerata 0.349 | a_L_rerata 0.020 | 137 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 8: loss latih 0.0028 | val Macro-F1 64.19 | alpha_rerata 0.351 | a_L_rerata 0.020 | 135 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 9: loss latih 0.0017 | val Macro-F1 65.76 | alpha_rerata 0.351 | a_L_rerata 0.020 | 132 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] epoch 10: loss latih 0.0006 | val Macro-F1 65.18 | alpha_rerata 0.353 | a_L_rerata 0.020 | 136 dtk
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] SELESAI: epoch terbaik 9, val Macro-F1 65.76
+  -> selesai
+
+[10/23] laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1f_fdeg_kuantil5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 31229.79it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 1: loss latih 1.4602 | val Macro-F1 56.42 | alpha_rerata 0.608 | a_L_rerata 0.073 | 125 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 2: loss latih 0.7299 | val Macro-F1 59.53 | alpha_rerata 0.463 | a_L_rerata 0.013 | 126 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 3: loss latih 0.3212 | val Macro-F1 62.40 | alpha_rerata 0.431 | a_L_rerata 0.012 | 129 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 4: loss latih 0.1216 | val Macro-F1 61.28 | alpha_rerata 0.425 | a_L_rerata 0.012 | 127 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 5: loss latih 0.0531 | val Macro-F1 63.37 | alpha_rerata 0.423 | a_L_rerata 0.012 | 128 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 6: loss latih 0.0221 | val Macro-F1 61.97 | alpha_rerata 0.427 | a_L_rerata 0.013 | 128 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 7: loss latih 0.0085 | val Macro-F1 63.40 | alpha_rerata 0.426 | a_L_rerata 0.012 | 129 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 8: loss latih 0.0035 | val Macro-F1 64.28 | alpha_rerata 0.425 | a_L_rerata 0.012 | 129 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 9: loss latih 0.0019 | val Macro-F1 63.48 | alpha_rerata 0.425 | a_L_rerata 0.012 | 126 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] epoch 10: loss latih 0.0006 | val Macro-F1 63.75 | alpha_rerata 0.425 | a_L_rerata 0.012 | 129 dtk
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 64.28
+  -> selesai
+
+[11/23] laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2a_konteks_tgca_bias.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 18206.77it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 1: loss latih 1.4516 | val Macro-F1 53.92 | alpha_rerata 0.556 | a_L_rerata 0.043 | 140 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 2: loss latih 0.7109 | val Macro-F1 58.43 | alpha_rerata 0.387 | a_L_rerata 0.004 | 140 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 3: loss latih 0.2996 | val Macro-F1 62.75 | alpha_rerata 0.341 | a_L_rerata 0.000 | 136 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 4: loss latih 0.1154 | val Macro-F1 64.16 | alpha_rerata 0.328 | a_L_rerata 0.000 | 136 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 5: loss latih 0.0478 | val Macro-F1 62.76 | alpha_rerata 0.307 | a_L_rerata 0.000 | 131 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 6: loss latih 0.0189 | val Macro-F1 61.45 | alpha_rerata 0.314 | a_L_rerata 0.000 | 132 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 7: loss latih 0.0112 | val Macro-F1 64.69 | alpha_rerata 0.313 | a_L_rerata 0.000 | 127 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 8: loss latih 0.0047 | val Macro-F1 64.08 | alpha_rerata 0.317 | a_L_rerata 0.000 | 118 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 9: loss latih 0.0021 | val Macro-F1 63.90 | alpha_rerata 0.320 | a_L_rerata 0.000 | 121 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] epoch 10: loss latih 0.0008 | val Macro-F1 64.68 | alpha_rerata 0.323 | a_L_rerata 0.000 | 125 dtk
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 64.69
+  -> selesai
+
+[12/23] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 11326.63it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 1: loss latih 1.4627 | val Macro-F1 55.66 | alpha_rerata 0.580 | a_L_rerata 0.106 | 134 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 2: loss latih 0.7587 | val Macro-F1 58.18 | alpha_rerata 0.428 | a_L_rerata 0.032 | 133 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 3: loss latih 0.3591 | val Macro-F1 60.80 | alpha_rerata 0.370 | a_L_rerata 0.021 | 125 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 4: loss latih 0.1457 | val Macro-F1 63.31 | alpha_rerata 0.349 | a_L_rerata 0.021 | 129 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 5: loss latih 0.0679 | val Macro-F1 61.85 | alpha_rerata 0.352 | a_L_rerata 0.021 | 129 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 6: loss latih 0.0279 | val Macro-F1 63.07 | alpha_rerata 0.343 | a_L_rerata 0.018 | 132 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 7: loss latih 0.0110 | val Macro-F1 64.12 | alpha_rerata 0.344 | a_L_rerata 0.018 | 134 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 8: loss latih 0.0066 | val Macro-F1 64.24 | alpha_rerata 0.347 | a_L_rerata 0.017 | 128 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 9: loss latih 0.0021 | val Macro-F1 64.64 | alpha_rerata 0.352 | a_L_rerata 0.017 | 129 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] epoch 10: loss latih 0.0006 | val Macro-F1 66.05 | alpha_rerata 0.352 | a_L_rerata 0.017 | 132 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 66.05
+  -> selesai
+
+[13/23] laporgub_F3a_layernorm_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3a_layernorm.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 10029.96it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 1: loss latih 1.3151 | val Macro-F1 57.14 | alpha_rerata 0.342 | a_L_rerata 0.017 | 140 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 2: loss latih 0.6203 | val Macro-F1 57.29 | alpha_rerata 0.275 | a_L_rerata 0.020 | 131 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 3: loss latih 0.2231 | val Macro-F1 58.18 | alpha_rerata 0.275 | a_L_rerata 0.015 | 126 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 4: loss latih 0.0931 | val Macro-F1 62.61 | alpha_rerata 0.271 | a_L_rerata 0.015 | 124 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 5: loss latih 0.0438 | val Macro-F1 62.49 | alpha_rerata 0.276 | a_L_rerata 0.015 | 129 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 6: loss latih 0.0171 | val Macro-F1 61.64 | alpha_rerata 0.274 | a_L_rerata 0.015 | 130 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 7: loss latih 0.0337 | val Macro-F1 63.58 | alpha_rerata 0.275 | a_L_rerata 0.015 | 127 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 8: loss latih 0.0127 | val Macro-F1 64.10 | alpha_rerata 0.276 | a_L_rerata 0.015 | 126 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 9: loss latih 0.0021 | val Macro-F1 63.42 | alpha_rerata 0.276 | a_L_rerata 0.015 | 122 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] epoch 10: loss latih 0.0013 | val Macro-F1 63.11 | alpha_rerata 0.276 | a_L_rerata 0.015 | 133 dtk
+    [laporgub_F3a_layernorm_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 64.10
+  -> selesai
+
+[14/23] laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3b_layernorm_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 17184.77it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 1: loss latih 1.3303 | val Macro-F1 55.62 | alpha_rerata 0.387 | a_L_rerata 0.064 | 150 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 2: loss latih 0.6483 | val Macro-F1 59.30 | alpha_rerata 0.305 | a_L_rerata 0.000 | 146 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 3: loss latih 0.2307 | val Macro-F1 61.83 | alpha_rerata 0.302 | a_L_rerata 0.000 | 135 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 4: loss latih 0.1370 | val Macro-F1 62.62 | alpha_rerata 0.309 | a_L_rerata 0.000 | 117 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 5: loss latih 0.0543 | val Macro-F1 61.52 | alpha_rerata 0.311 | a_L_rerata 0.000 | 117 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 6: loss latih 0.0198 | val Macro-F1 62.18 | alpha_rerata 0.313 | a_L_rerata 0.000 | 134 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] epoch 7: loss latih 0.0150 | val Macro-F1 62.07 | alpha_rerata 0.308 | a_L_rerata 0.000 | 141 dtk
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] SELESAI: epoch terbaik 4, val Macro-F1 62.62
+  -> selesai
+
+[15/23] laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4a_V7_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 18448.23it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 1: loss latih 1.4516 | val Macro-F1 52.91 | alpha_rerata 0.523 | a_L_rerata 0.046 | 134 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 2: loss latih 0.7729 | val Macro-F1 56.99 | alpha_rerata 0.348 | a_L_rerata 0.087 | 142 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 3: loss latih 0.3399 | val Macro-F1 61.59 | alpha_rerata 0.301 | a_L_rerata 0.086 | 143 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 4: loss latih 0.1266 | val Macro-F1 63.12 | alpha_rerata 0.287 | a_L_rerata 0.086 | 140 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 5: loss latih 0.0559 | val Macro-F1 62.89 | alpha_rerata 0.278 | a_L_rerata 0.086 | 139 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 6: loss latih 0.0209 | val Macro-F1 62.86 | alpha_rerata 0.282 | a_L_rerata 0.086 | 127 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 7: loss latih 0.0093 | val Macro-F1 63.88 | alpha_rerata 0.284 | a_L_rerata 0.086 | 135 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 8: loss latih 0.0043 | val Macro-F1 64.00 | alpha_rerata 0.289 | a_L_rerata 0.086 | 127 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 9: loss latih 0.0012 | val Macro-F1 63.77 | alpha_rerata 0.288 | a_L_rerata 0.086 | 127 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] epoch 10: loss latih 0.0005 | val Macro-F1 64.49 | alpha_rerata 0.291 | a_L_rerata 0.086 | 132 dtk
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 64.49
+  -> selesai
+
+[16/23] laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4b_V7_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 26619.78it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 1.5253 | val Macro-F1 54.37 | alpha_rerata 0.701 | a_L_rerata 0.165 | 133 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.7199 | val Macro-F1 58.06 | alpha_rerata 0.549 | a_L_rerata 0.029 | 131 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.3692 | val Macro-F1 60.63 | alpha_rerata 0.465 | a_L_rerata 0.032 | 135 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.1624 | val Macro-F1 62.91 | alpha_rerata 0.420 | a_L_rerata 0.026 | 144 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.0769 | val Macro-F1 65.05 | alpha_rerata 0.427 | a_L_rerata 0.053 | 136 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0339 | val Macro-F1 62.22 | alpha_rerata 0.436 | a_L_rerata 0.048 | 130 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.0138 | val Macro-F1 65.10 | alpha_rerata 0.439 | a_L_rerata 0.032 | 126 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0060 | val Macro-F1 64.78 | alpha_rerata 0.449 | a_L_rerata 0.032 | 122 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 9: loss latih 0.0027 | val Macro-F1 66.02 | alpha_rerata 0.457 | a_L_rerata 0.031 | 118 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] epoch 10: loss latih 0.0011 | val Macro-F1 66.04 | alpha_rerata 0.465 | a_L_rerata 0.032 | 121 dtk
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 66.04
+  -> selesai
+
+[17/23] laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4c_V7_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 36785.59it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 1.5028 | val Macro-F1 54.04 | alpha_rerata 0.676 | a_L_rerata 0.049 | 127 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.7461 | val Macro-F1 60.10 | alpha_rerata 0.488 | a_L_rerata 0.001 | 122 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.3744 | val Macro-F1 61.41 | alpha_rerata 0.417 | a_L_rerata 0.031 | 121 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.1650 | val Macro-F1 63.40 | alpha_rerata 0.387 | a_L_rerata 0.002 | 124 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.0733 | val Macro-F1 63.73 | alpha_rerata 0.389 | a_L_rerata 0.000 | 120 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0329 | val Macro-F1 60.63 | alpha_rerata 0.386 | a_L_rerata 0.000 | 123 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.0135 | val Macro-F1 64.76 | alpha_rerata 0.407 | a_L_rerata 0.029 | 109 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0049 | val Macro-F1 63.67 | alpha_rerata 0.416 | a_L_rerata 0.025 | 117 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 9: loss latih 0.0023 | val Macro-F1 64.03 | alpha_rerata 0.434 | a_L_rerata 0.025 | 118 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 10: loss latih 0.0009 | val Macro-F1 63.70 | alpha_rerata 0.438 | a_L_rerata 0.024 | 116 dtk
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 64.76
+  -> selesai
+
+[18/23] laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4d_V1_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 37800.35it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 1: loss latih 1.5209 | val Macro-F1 55.27 | 98 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 2: loss latih 0.8970 | val Macro-F1 56.61 | 102 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 3: loss latih 0.4970 | val Macro-F1 59.60 | 100 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 4: loss latih 0.2852 | val Macro-F1 62.43 | 101 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 5: loss latih 0.1439 | val Macro-F1 63.04 | 99 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 6: loss latih 0.0705 | val Macro-F1 62.07 | 99 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 7: loss latih 0.0409 | val Macro-F1 62.38 | 107 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 8: loss latih 0.0176 | val Macro-F1 64.48 | 115 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 9: loss latih 0.0071 | val Macro-F1 64.36 | 113 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] epoch 10: loss latih 0.0030 | val Macro-F1 64.78 | 115 dtk
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 64.78
+  -> selesai
+
+[19/23] laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4e_V1_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 39093.39it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 1.5752 | val Macro-F1 56.07 | 115 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.7793 | val Macro-F1 59.73 | 115 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.4229 | val Macro-F1 60.61 | 116 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.2291 | val Macro-F1 60.54 | 111 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.1205 | val Macro-F1 61.86 | 112 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0646 | val Macro-F1 61.87 | 116 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.0358 | val Macro-F1 64.77 | 113 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0192 | val Macro-F1 63.92 | 114 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 9: loss latih 0.0087 | val Macro-F1 63.89 | 106 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] epoch 10: loss latih 0.0043 | val Macro-F1 63.64 | 108 dtk
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 64.77
+  -> selesai
+
+[20/23] laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4f_V1_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 38257.15it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+
+=== Fase F | 2026-10-15T02:15:54 | f58edab64369 | 23 run ===
+
+[1/23] laporgub_F0a_V1_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0a_V1.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F0a_V1_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[2/23] laporgub_F0b_V7_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F0b_V7_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[3/23] laporgub_F0c_V4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0c_V4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F0c_V4_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[4/23] laporgub_F0d_V6_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0d_V6.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F0d_V6_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[5/23] laporgub_F1a_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1a_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1a_fdeg_standar_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[6/23] laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1b_fdeg_linear_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1b_fdeg_linear_standar_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[7/23] laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1c_fdeg_skalar_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1c_fdeg_skalar_standar_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[8/23] laporgub_F1d_fdeg_film_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1d_fdeg_film_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1d_fdeg_film_standar_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[9/23] laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1e_fdeg_kuantil20.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1e_fdeg_kuantil20_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[10/23] laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_1f_fdeg_kuantil5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F1f_fdeg_kuantil5_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[11/23] laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2a_konteks_tgca_bias.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F2a_konteks_tgca_bias_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[12/23] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[13/23] laporgub_F3a_layernorm_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3a_layernorm.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F3a_layernorm_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[14/23] laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_3b_layernorm_fdeg_standar.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F3b_layernorm_fdeg_standar_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[15/23] laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4a_V7_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F4a_V7_lrplm3e-5_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[16/23] laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4b_V7_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F4b_V7_lrbaru5e-4_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[17/23] laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4c_V7_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F4c_V7_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[18/23] laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4d_V1_lrplm3e-5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F4d_V1_lrplm3e-5_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[19/23] laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4e_V1_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    [laporgub_F4e_V1_lrbaru5e-4_L5_fold0_seed42] sudah selesai, dilewati (pakai --ulang untuk mengulang)
+  -> selesai
+
+[20/23] laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_4f_V1_lrplm3e-5_lrbaru5e-4.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 16836.01it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 1.5395 | val Macro-F1 55.68 | 123 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.8133 | val Macro-F1 58.87 | 118 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.4478 | val Macro-F1 60.72 | 118 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.2340 | val Macro-F1 61.33 | 118 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.1146 | val Macro-F1 61.15 | 117 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0614 | val Macro-F1 61.33 | 120 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.0300 | val Macro-F1 63.66 | 122 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0141 | val Macro-F1 64.81 | 120 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 9: loss latih 0.0061 | val Macro-F1 63.34 | 117 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 10: loss latih 0.0025 | val Macro-F1 63.97 | 119 dtk
+    [laporgub_F4f_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 64.81
+  -> selesai
+
+[21/23] laporgub_F5a_tfidf_10k_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5a_tfidf_10k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: 10000 fitur, fit 14 dtk
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 27892.18it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 1: loss latih 1.4556 | val Macro-F1 56.25 | alpha_rerata 0.586 | a_L_rerata 0.015 | 123 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 2: loss latih 0.7669 | val Macro-F1 58.79 | alpha_rerata 0.440 | a_L_rerata 0.055 | 129 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 3: loss latih 0.3987 | val Macro-F1 61.75 | alpha_rerata 0.400 | a_L_rerata 0.055 | 126 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 4: loss latih 0.1893 | val Macro-F1 63.56 | alpha_rerata 0.380 | a_L_rerata 0.055 | 123 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 5: loss latih 0.0941 | val Macro-F1 63.15 | alpha_rerata 0.385 | a_L_rerata 0.055 | 128 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 6: loss latih 0.0415 | val Macro-F1 63.81 | alpha_rerata 0.391 | a_L_rerata 0.055 | 119 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 7: loss latih 0.0209 | val Macro-F1 67.27 | alpha_rerata 0.392 | a_L_rerata 0.046 | 125 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 8: loss latih 0.0090 | val Macro-F1 65.78 | alpha_rerata 0.399 | a_L_rerata 0.046 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 9: loss latih 0.0032 | val Macro-F1 65.40 | alpha_rerata 0.407 | a_L_rerata 0.046 | 126 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] epoch 10: loss latih 0.0018 | val Macro-F1 66.72 | alpha_rerata 0.410 | a_L_rerata 0.046 | 130 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed42] SELESAI: epoch terbaik 7, val Macro-F1 67.27
+  -> selesai
+
+[22/23] laporgub_F5b_tfidf_50k_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5b_tfidf_50k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: 50000 fitur, fit 13 dtk
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 16758.50it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 1: loss latih 1.4569 | val Macro-F1 56.99 | alpha_rerata 0.559 | a_L_rerata 0.037 | 127 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 2: loss latih 0.7116 | val Macro-F1 58.73 | alpha_rerata 0.370 | a_L_rerata 0.023 | 126 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 3: loss latih 0.2836 | val Macro-F1 62.65 | alpha_rerata 0.303 | a_L_rerata 0.000 | 123 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 4: loss latih 0.0988 | val Macro-F1 63.12 | alpha_rerata 0.282 | a_L_rerata 0.000 | 129 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 5: loss latih 0.0351 | val Macro-F1 64.41 | alpha_rerata 0.278 | a_L_rerata 0.000 | 123 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 6: loss latih 0.0129 | val Macro-F1 62.42 | alpha_rerata 0.275 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 7: loss latih 0.0199 | val Macro-F1 62.41 | alpha_rerata 0.281 | a_L_rerata 0.060 | 124 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 8: loss latih 0.0071 | val Macro-F1 64.56 | alpha_rerata 0.284 | a_L_rerata 0.060 | 124 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 9: loss latih 0.0014 | val Macro-F1 64.03 | alpha_rerata 0.284 | a_L_rerata 0.060 | 127 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] epoch 10: loss latih 0.0007 | val Macro-F1 63.80 | alpha_rerata 0.286 | a_L_rerata 0.060 | 129 dtk
+    [laporgub_F5b_tfidf_50k_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 64.56
+  -> selesai
+
+[23/23] laporgub_F5c_tfidf_mindf5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5c_tfidf_mindf5.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: 30000 fitur, fit 14 dtk
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 16338.64it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 1: loss latih 1.4628 | val Macro-F1 52.05 | alpha_rerata 0.563 | a_L_rerata 0.029 | 130 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 2: loss latih 0.7404 | val Macro-F1 58.83 | alpha_rerata 0.389 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 3: loss latih 0.3095 | val Macro-F1 61.12 | alpha_rerata 0.332 | a_L_rerata 0.000 | 130 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 4: loss latih 0.1173 | val Macro-F1 62.37 | alpha_rerata 0.325 | a_L_rerata 0.000 | 121 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 5: loss latih 0.0481 | val Macro-F1 61.94 | alpha_rerata 0.320 | a_L_rerata 0.000 | 127 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 6: loss latih 0.0228 | val Macro-F1 62.48 | alpha_rerata 0.319 | a_L_rerata 0.000 | 123 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 7: loss latih 0.0101 | val Macro-F1 64.38 | alpha_rerata 0.321 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 8: loss latih 0.0053 | val Macro-F1 64.43 | alpha_rerata 0.327 | a_L_rerata 0.000 | 126 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 9: loss latih 0.0017 | val Macro-F1 62.54 | alpha_rerata 0.329 | a_L_rerata 0.000 | 126 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] epoch 10: loss latih 0.0008 | val Macro-F1 64.32 | alpha_rerata 0.331 | a_L_rerata 0.000 | 129 dtk
+    [laporgub_F5c_tfidf_mindf5_L5_fold0_seed42] SELESAI: epoch terbaik 8, val Macro-F1 64.43
+  -> selesai
+
+=== Fase F selesai: 23/23 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T03:50:46 | f58edab64369 | 2 run ===
+
+[1/2] laporgub_F0a_V1_L5_fold0_seed43
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0a_V1.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 43
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 8566.37it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 1: loss latih 1.5103 | val Macro-F1 56.28 | 118 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 2: loss latih 0.8354 | val Macro-F1 56.74 | 121 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 3: loss latih 0.4604 | val Macro-F1 59.65 | 117 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 4: loss latih 0.2584 | val Macro-F1 62.41 | 118 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 5: loss latih 0.1403 | val Macro-F1 63.07 | 117 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 6: loss latih 0.0797 | val Macro-F1 64.21 | 120 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 7: loss latih 0.0411 | val Macro-F1 65.49 | 118 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 8: loss latih 0.0207 | val Macro-F1 63.65 | 119 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 9: loss latih 0.0129 | val Macro-F1 63.87 | 120 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] epoch 10: loss latih 0.0045 | val Macro-F1 64.89 | 114 dtk
+    [laporgub_F0a_V1_L5_fold0_seed43] SELESAI: epoch terbaik 7, val Macro-F1 65.49
+  -> selesai
+
+[2/2] laporgub_F0b_V7_L5_fold0_seed43
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 43
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 19192.56it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 1: loss latih 1.4567 | val Macro-F1 54.59 | alpha_rerata 0.604 | a_L_rerata 0.133 | 126 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 2: loss latih 0.7294 | val Macro-F1 61.35 | alpha_rerata 0.405 | a_L_rerata 0.003 | 126 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 3: loss latih 0.3090 | val Macro-F1 62.77 | alpha_rerata 0.343 | a_L_rerata 0.000 | 128 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 4: loss latih 0.1275 | val Macro-F1 63.90 | alpha_rerata 0.329 | a_L_rerata 0.000 | 122 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 5: loss latih 0.0485 | val Macro-F1 64.69 | alpha_rerata 0.323 | a_L_rerata 0.000 | 122 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 6: loss latih 0.0218 | val Macro-F1 65.00 | alpha_rerata 0.319 | a_L_rerata 0.000 | 125 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 7: loss latih 0.0091 | val Macro-F1 65.65 | alpha_rerata 0.324 | a_L_rerata 0.000 | 124 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 8: loss latih 0.0042 | val Macro-F1 64.24 | alpha_rerata 0.318 | a_L_rerata 0.000 | 130 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 9: loss latih 0.0024 | val Macro-F1 66.54 | alpha_rerata 0.327 | a_L_rerata 0.000 | 132 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] epoch 10: loss latih 0.0006 | val Macro-F1 66.98 | alpha_rerata 0.329 | a_L_rerata 0.000 | 130 dtk
+    [laporgub_F0b_V7_L5_fold0_seed43] SELESAI: epoch terbaik 10, val Macro-F1 66.98
+  -> selesai
+
+=== Fase F selesai: 2/2 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T04:35:19 | f58edab64369 | 2 run ===
+
+[1/2] laporgub_F0a_V1_L5_fold0_seed44
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0a_V1.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 44
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 14060.48it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 1: loss latih 1.5175 | val Macro-F1 54.41 | 118 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 2: loss latih 0.8804 | val Macro-F1 58.76 | 111 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 3: loss latih 0.4608 | val Macro-F1 62.64 | 121 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 4: loss latih 0.2435 | val Macro-F1 61.00 | 124 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 5: loss latih 0.1373 | val Macro-F1 61.62 | 121 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 6: loss latih 0.0738 | val Macro-F1 63.00 | 115 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 7: loss latih 0.0402 | val Macro-F1 63.34 | 114 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 8: loss latih 0.0202 | val Macro-F1 63.88 | 116 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 9: loss latih 0.0093 | val Macro-F1 63.57 | 124 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] epoch 10: loss latih 0.0043 | val Macro-F1 64.18 | 120 dtk
+    [laporgub_F0a_V1_L5_fold0_seed44] SELESAI: epoch terbaik 10, val Macro-F1 64.18
+  -> selesai
+
+[2/2] laporgub_F0b_V7_L5_fold0_seed44
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 44
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 11503.88it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 1: loss latih 1.4525 | val Macro-F1 54.32 | alpha_rerata 0.587 | a_L_rerata 0.089 | 131 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 2: loss latih 0.7459 | val Macro-F1 59.82 | alpha_rerata 0.384 | a_L_rerata 0.027 | 128 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 3: loss latih 0.3025 | val Macro-F1 64.29 | alpha_rerata 0.336 | a_L_rerata 0.024 | 132 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 4: loss latih 0.1238 | val Macro-F1 64.70 | alpha_rerata 0.319 | a_L_rerata 0.024 | 126 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 5: loss latih 0.0513 | val Macro-F1 62.98 | alpha_rerata 0.312 | a_L_rerata 0.024 | 130 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 6: loss latih 0.0231 | val Macro-F1 65.32 | alpha_rerata 0.315 | a_L_rerata 0.024 | 126 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 7: loss latih 0.0085 | val Macro-F1 66.26 | alpha_rerata 0.323 | a_L_rerata 0.024 | 127 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 8: loss latih 0.0039 | val Macro-F1 66.04 | alpha_rerata 0.321 | a_L_rerata 0.024 | 126 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 9: loss latih 0.0017 | val Macro-F1 65.70 | alpha_rerata 0.324 | a_L_rerata 0.000 | 125 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] epoch 10: loss latih 0.0009 | val Macro-F1 65.80 | alpha_rerata 0.328 | a_L_rerata 0.000 | 129 dtk
+    [laporgub_F0b_V7_L5_fold0_seed44] SELESAI: epoch terbaik 7, val Macro-F1 66.26
+  -> selesai
+
+=== Fase F selesai: 2/2 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T07:35:36 | bd309dbaa377 | 2 run ===
+
+[1/2] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 43
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 15893.93it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 1: loss latih 1.4450 | val Macro-F1 54.17 | alpha_rerata 0.626 | a_L_rerata 0.078 | 125 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 2: loss latih 0.7636 | val Macro-F1 59.89 | alpha_rerata 0.423 | a_L_rerata 0.029 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 3: loss latih 0.3455 | val Macro-F1 62.55 | alpha_rerata 0.365 | a_L_rerata 0.021 | 123 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 4: loss latih 0.1514 | val Macro-F1 63.08 | alpha_rerata 0.348 | a_L_rerata 0.020 | 127 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 5: loss latih 0.0608 | val Macro-F1 63.51 | alpha_rerata 0.343 | a_L_rerata 0.020 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 6: loss latih 0.0281 | val Macro-F1 65.07 | alpha_rerata 0.333 | a_L_rerata 0.018 | 132 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 7: loss latih 0.0128 | val Macro-F1 63.66 | alpha_rerata 0.334 | a_L_rerata 0.017 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 8: loss latih 0.0065 | val Macro-F1 65.07 | alpha_rerata 0.337 | a_L_rerata 0.015 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 9: loss latih 0.0033 | val Macro-F1 65.85 | alpha_rerata 0.342 | a_L_rerata 0.015 | 128 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] epoch 10: loss latih 0.0007 | val Macro-F1 66.05 | alpha_rerata 0.343 | a_L_rerata 0.016 | 122 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed43] SELESAI: epoch terbaik 10, val Macro-F1 66.05
+  -> selesai
+
+[2/2] laporgub_F5a_tfidf_10k_L5_fold0_seed43
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5a_tfidf_10k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 43
+      TF-IDF fold 0: dari cache (10000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 15274.57it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 1: loss latih 1.4695 | val Macro-F1 54.84 | alpha_rerata 0.610 | a_L_rerata 0.062 | 122 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 2: loss latih 0.7398 | val Macro-F1 59.84 | alpha_rerata 0.433 | a_L_rerata 0.007 | 120 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 3: loss latih 0.3582 | val Macro-F1 63.98 | alpha_rerata 0.384 | a_L_rerata 0.016 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 4: loss latih 0.1726 | val Macro-F1 64.49 | alpha_rerata 0.373 | a_L_rerata 0.006 | 128 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 5: loss latih 0.0818 | val Macro-F1 64.71 | alpha_rerata 0.376 | a_L_rerata 0.006 | 128 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 6: loss latih 0.0405 | val Macro-F1 65.03 | alpha_rerata 0.380 | a_L_rerata 0.006 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 7: loss latih 0.0190 | val Macro-F1 65.74 | alpha_rerata 0.382 | a_L_rerata 0.006 | 131 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 8: loss latih 0.0070 | val Macro-F1 64.74 | alpha_rerata 0.388 | a_L_rerata 0.006 | 125 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 9: loss latih 0.0043 | val Macro-F1 66.35 | alpha_rerata 0.393 | a_L_rerata 0.006 | 133 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] epoch 10: loss latih 0.0018 | val Macro-F1 66.34 | alpha_rerata 0.397 | a_L_rerata 0.006 | 129 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed43] SELESAI: epoch terbaik 9, val Macro-F1 66.35
+  -> selesai
+
+=== Fase F selesai: 2/2 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T08:21:15 | bd309dbaa377 | 2 run ===
+
+[1/2] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 44
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 14917.73it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 1: loss latih 1.4536 | val Macro-F1 55.53 | alpha_rerata 0.629 | a_L_rerata 0.110 | 129 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 2: loss latih 0.7662 | val Macro-F1 57.93 | alpha_rerata 0.419 | a_L_rerata 0.046 | 126 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 3: loss latih 0.3437 | val Macro-F1 61.76 | alpha_rerata 0.367 | a_L_rerata 0.025 | 126 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 4: loss latih 0.1518 | val Macro-F1 62.08 | alpha_rerata 0.340 | a_L_rerata 0.023 | 136 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 5: loss latih 0.0613 | val Macro-F1 63.51 | alpha_rerata 0.331 | a_L_rerata 0.019 | 126 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 6: loss latih 0.0287 | val Macro-F1 64.12 | alpha_rerata 0.335 | a_L_rerata 0.019 | 127 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 7: loss latih 0.0100 | val Macro-F1 65.32 | alpha_rerata 0.337 | a_L_rerata 0.018 | 126 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 8: loss latih 0.0038 | val Macro-F1 66.00 | alpha_rerata 0.336 | a_L_rerata 0.017 | 125 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 9: loss latih 0.0018 | val Macro-F1 65.77 | alpha_rerata 0.342 | a_L_rerata 0.016 | 126 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] epoch 10: loss latih 0.0006 | val Macro-F1 65.19 | alpha_rerata 0.344 | a_L_rerata 0.017 | 125 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed44] SELESAI: epoch terbaik 8, val Macro-F1 66.00
+  -> selesai
+
+[2/2] laporgub_F5a_tfidf_10k_L5_fold0_seed44
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5a_tfidf_10k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 44
+      TF-IDF fold 0: dari cache (10000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 18055.98it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 1: loss latih 1.4544 | val Macro-F1 55.94 | alpha_rerata 0.602 | a_L_rerata 0.010 | 123 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 2: loss latih 0.7743 | val Macro-F1 61.46 | alpha_rerata 0.426 | a_L_rerata 0.041 | 120 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 3: loss latih 0.3713 | val Macro-F1 61.49 | alpha_rerata 0.387 | a_L_rerata 0.012 | 125 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 4: loss latih 0.1816 | val Macro-F1 64.44 | alpha_rerata 0.367 | a_L_rerata 0.012 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 5: loss latih 0.0843 | val Macro-F1 61.89 | alpha_rerata 0.373 | a_L_rerata 0.012 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 6: loss latih 0.0399 | val Macro-F1 66.14 | alpha_rerata 0.371 | a_L_rerata 0.012 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 7: loss latih 0.0190 | val Macro-F1 63.48 | alpha_rerata 0.372 | a_L_rerata 0.012 | 119 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 8: loss latih 0.0081 | val Macro-F1 65.55 | alpha_rerata 0.382 | a_L_rerata 0.012 | 127 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] epoch 9: loss latih 0.0036 | val Macro-F1 64.55 | alpha_rerata 0.384 | a_L_rerata 0.012 | 118 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed44] SELESAI: epoch terbaik 6, val Macro-F1 66.14
+  -> selesai
+
+=== Fase F selesai: 2/2 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T09:04:12 | bd309dbaa377 | 2 run ===
+
+[1/2] laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_2b_konteks_gerbang_vektor.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 45
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 13511.43it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 1: loss latih 1.4440 | val Macro-F1 55.73 | alpha_rerata 0.630 | a_L_rerata 0.101 | 125 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 2: loss latih 0.7486 | val Macro-F1 57.51 | alpha_rerata 0.418 | a_L_rerata 0.031 | 132 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 3: loss latih 0.3529 | val Macro-F1 62.34 | alpha_rerata 0.370 | a_L_rerata 0.028 | 130 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 4: loss latih 0.1493 | val Macro-F1 64.76 | alpha_rerata 0.339 | a_L_rerata 0.023 | 121 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 5: loss latih 0.0681 | val Macro-F1 63.24 | alpha_rerata 0.334 | a_L_rerata 0.022 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 6: loss latih 0.0283 | val Macro-F1 64.55 | alpha_rerata 0.330 | a_L_rerata 0.021 | 124 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 7: loss latih 0.0123 | val Macro-F1 65.03 | alpha_rerata 0.325 | a_L_rerata 0.022 | 123 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 8: loss latih 0.0062 | val Macro-F1 63.78 | alpha_rerata 0.336 | a_L_rerata 0.020 | 120 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 9: loss latih 0.0039 | val Macro-F1 64.46 | alpha_rerata 0.337 | a_L_rerata 0.020 | 118 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] epoch 10: loss latih 0.0008 | val Macro-F1 64.28 | alpha_rerata 0.339 | a_L_rerata 0.020 | 130 dtk
+    [laporgub_F2b_konteks_gerbang_vektor_L5_fold0_seed45] SELESAI: epoch terbaik 7, val Macro-F1 65.03
+  -> selesai
+
+[2/2] laporgub_F5a_tfidf_10k_L5_fold0_seed45
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_5a_tfidf_10k.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 45
+      TF-IDF fold 0: dari cache (10000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 8604.37it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.weight | UNEXPECTED |  |
+    pooler.dense.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 1: loss latih 1.4355 | val Macro-F1 55.85 | alpha_rerata 0.584 | a_L_rerata 0.002 | 127 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 2: loss latih 0.7434 | val Macro-F1 57.40 | alpha_rerata 0.414 | a_L_rerata 0.047 | 126 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 3: loss latih 0.3873 | val Macro-F1 63.33 | alpha_rerata 0.378 | a_L_rerata 0.045 | 121 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 4: loss latih 0.1787 | val Macro-F1 64.12 | alpha_rerata 0.366 | a_L_rerata 0.045 | 124 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 5: loss latih 0.1027 | val Macro-F1 66.38 | alpha_rerata 0.372 | a_L_rerata 0.096 | 126 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 6: loss latih 0.0449 | val Macro-F1 64.04 | alpha_rerata 0.376 | a_L_rerata 0.096 | 122 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 7: loss latih 0.0226 | val Macro-F1 65.61 | alpha_rerata 0.380 | a_L_rerata 0.070 | 119 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] epoch 8: loss latih 0.0093 | val Macro-F1 64.02 | alpha_rerata 0.385 | a_L_rerata 0.069 | 120 dtk
+    [laporgub_F5a_tfidf_10k_L5_fold0_seed45] SELESAI: epoch terbaik 5, val Macro-F1 66.38
+  -> selesai
+
+=== Fase F selesai: 2/2 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T09:44:45 | bd309dbaa377 | 1 run ===
+
+[1/1] laporgub_F0b_V7_L5_fold0_seed45
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/lg_0b_V7.yaml --dataset laporgub --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf --seed 45
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 12155.79it/s]
+    [transformers] [1mBertModel LOAD REPORT[0m from: indobenchmark/indobert-base-p1
+    Key                 | Status     |  |
+    --------------------+------------+--+-
+    pooler.dense.bias   | UNEXPECTED |  |
+    pooler.dense.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 1: loss latih 1.4456 | val Macro-F1 53.11 | alpha_rerata 0.572 | a_L_rerata 0.131 | 122 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 2: loss latih 0.7409 | val Macro-F1 56.48 | alpha_rerata 0.389 | a_L_rerata 0.099 | 121 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 3: loss latih 0.3510 | val Macro-F1 62.92 | alpha_rerata 0.319 | a_L_rerata 0.099 | 128 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 4: loss latih 0.1369 | val Macro-F1 64.90 | alpha_rerata 0.302 | a_L_rerata 0.074 | 124 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 5: loss latih 0.0650 | val Macro-F1 65.45 | alpha_rerata 0.296 | a_L_rerata 0.074 | 130 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 6: loss latih 0.0241 | val Macro-F1 64.73 | alpha_rerata 0.294 | a_L_rerata 0.074 | 130 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 7: loss latih 0.0132 | val Macro-F1 63.76 | alpha_rerata 0.299 | a_L_rerata 0.074 | 129 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 8: loss latih 0.0047 | val Macro-F1 65.74 | alpha_rerata 0.301 | a_L_rerata 0.074 | 121 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 9: loss latih 0.0021 | val Macro-F1 66.11 | alpha_rerata 0.305 | a_L_rerata 0.074 | 123 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] epoch 10: loss latih 0.0009 | val Macro-F1 66.85 | alpha_rerata 0.305 | a_L_rerata 0.074 | 129 dtk
+    [laporgub_F0b_V7_L5_fold0_seed45] SELESAI: epoch terbaik 10, val Macro-F1 66.85
+  -> selesai
+
+=== Fase F selesai: 1/1 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===
+
+=== Fase F | 2026-10-15T16:35:54 | 9c55574b49ba | 8 run ===
+
+[1/8] cfpb_CF0a_V1_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_0a_V1.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[2/8] cfpb_CF0b_V4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_0b_V4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[3/8] cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1a_V1_lrplm3e-5.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[4/8] cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1b_V1_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[5/8] cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1c_V1_lrplm3e-5_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[6/8] cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2a_V4_lrplm3e-5.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[7/8] cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2b_V4_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+[8/8] cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2c_V4_lrplm3e-5_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+
+=== Fase F | 2026-10-15T16:39:20 | 9c55574b49ba | 8 run ===
+
+[1/8] cfpb_CF0a_V1_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_0a_V1.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights:  15%|█▍        | 29/197 [00:00<00:00, 255.92it/s]
+    Loading weights:  28%|██▊       | 56/197 [00:00<00:00, 222.67it/s]
+    Loading weights:  44%|████▎     | 86/197 [00:00<00:00, 253.31it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 512.69it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 1: loss latih 0.8598 | val Macro-F1 67.78 | 255 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 2: loss latih 0.5129 | val Macro-F1 70.84 | 255 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 3: loss latih 0.3948 | val Macro-F1 74.33 | 260 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 4: loss latih 0.3060 | val Macro-F1 72.98 | 252 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 5: loss latih 0.2276 | val Macro-F1 74.63 | 259 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 6: loss latih 0.1609 | val Macro-F1 75.48 | 257 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 7: loss latih 0.1153 | val Macro-F1 75.10 | 264 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 8: loss latih 0.0779 | val Macro-F1 74.25 | 264 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] epoch 9: loss latih 0.0565 | val Macro-F1 75.26 | 260 dtk
+    [cfpb_CF0a_V1_L5_fold0_seed42] SELESAI: epoch terbaik 6, val Macro-F1 75.48
+  -> selesai
+
+[2/8] cfpb_CF0b_V4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_0b_V4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5667.16it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 1: loss latih 0.8029 | val Macro-F1 69.26 | alpha_rerata 0.325 | 285 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 2: loss latih 0.4333 | val Macro-F1 71.80 | alpha_rerata 0.260 | 256 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 3: loss latih 0.2464 | val Macro-F1 72.04 | alpha_rerata 0.254 | 254 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 4: loss latih 0.1327 | val Macro-F1 72.51 | alpha_rerata 0.250 | 251 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 5: loss latih 0.0696 | val Macro-F1 72.65 | alpha_rerata 0.244 | 251 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 6: loss latih 0.0321 | val Macro-F1 72.90 | alpha_rerata 0.237 | 249 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 7: loss latih 0.0145 | val Macro-F1 72.77 | alpha_rerata 0.241 | 255 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 8: loss latih 0.0061 | val Macro-F1 72.58 | alpha_rerata 0.243 | 256 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 9: loss latih 0.0044 | val Macro-F1 73.25 | alpha_rerata 0.240 | 260 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] epoch 10: loss latih 0.0017 | val Macro-F1 73.15 | alpha_rerata 0.242 | 252 dtk
+    [cfpb_CF0b_V4_L5_fold0_seed42] SELESAI: epoch terbaik 9, val Macro-F1 73.25
+  -> selesai
+
+[3/8] cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1a_V1_lrplm3e-5.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 6776.77it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 1: loss latih 0.8335 | val Macro-F1 68.03 | 253 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 2: loss latih 0.5199 | val Macro-F1 70.93 | 249 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 3: loss latih 0.4023 | val Macro-F1 74.21 | 251 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 4: loss latih 0.3060 | val Macro-F1 73.76 | 246 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 5: loss latih 0.2171 | val Macro-F1 74.15 | 248 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 6: loss latih 0.1495 | val Macro-F1 74.79 | 246 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 7: loss latih 0.0942 | val Macro-F1 74.87 | 248 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 8: loss latih 0.0621 | val Macro-F1 75.13 | 248 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 9: loss latih 0.0426 | val Macro-F1 75.08 | 247 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] epoch 10: loss latih 0.0310 | val Macro-F1 75.55 | 248 dtk
+    [cfpb_CF1a_V1_lrplm3e-5_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 75.55
+  -> selesai
+
+[4/8] cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1b_V1_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5407.15it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.dense.bias        | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 0.8766 | val Macro-F1 68.30 | 250 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.5042 | val Macro-F1 71.52 | 246 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.3884 | val Macro-F1 73.90 | 247 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.2988 | val Macro-F1 74.79 | 246 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.2217 | val Macro-F1 75.28 | 246 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.1529 | val Macro-F1 74.68 | 247 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.1091 | val Macro-F1 74.27 | 247 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0732 | val Macro-F1 74.41 | 245 dtk
+    [cfpb_CF1b_V1_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 5, val Macro-F1 75.28
+  -> selesai
+
+[5/8] cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_1c_V1_lrplm3e-5_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3324.65it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 0.8431 | val Macro-F1 67.58 | 252 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.5107 | val Macro-F1 70.70 | 248 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.3934 | val Macro-F1 75.01 | 247 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.3060 | val Macro-F1 73.70 | 246 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.2226 | val Macro-F1 74.55 | 247 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.1584 | val Macro-F1 74.96 | 248 dtk
+    [cfpb_CF1c_V1_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 3, val Macro-F1 75.01
+  -> selesai
+
+[6/8] cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2a_V4_lrplm3e-5.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights:  54%|█████▍    | 107/197 [00:00<00:00, 1026.35it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1273.62it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 1: loss latih 0.7851 | val Macro-F1 69.17 | alpha_rerata 0.320 | 262 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 2: loss latih 0.4392 | val Macro-F1 71.84 | alpha_rerata 0.246 | 257 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 3: loss latih 0.2508 | val Macro-F1 71.89 | alpha_rerata 0.240 | 253 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 4: loss latih 0.1341 | val Macro-F1 72.79 | alpha_rerata 0.233 | 251 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 5: loss latih 0.0682 | val Macro-F1 72.91 | alpha_rerata 0.233 | 252 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 6: loss latih 0.0296 | val Macro-F1 72.61 | alpha_rerata 0.225 | 261 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 7: loss latih 0.0149 | val Macro-F1 72.54 | alpha_rerata 0.222 | 257 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] epoch 8: loss latih 0.0061 | val Macro-F1 72.36 | alpha_rerata 0.229 | 254 dtk
+    [cfpb_CF2a_V4_lrplm3e-5_L5_fold0_seed42] SELESAI: epoch terbaik 5, val Macro-F1 72.91
+  -> selesai
+
+[7/8] cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2b_V4_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 4823.74it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.dense.weight      | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 0.8408 | val Macro-F1 69.05 | alpha_rerata 0.426 | 273 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.4466 | val Macro-F1 73.68 | alpha_rerata 0.307 | 254 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.2794 | val Macro-F1 73.69 | alpha_rerata 0.283 | 260 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.1725 | val Macro-F1 73.50 | alpha_rerata 0.268 | 263 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.1059 | val Macro-F1 73.39 | alpha_rerata 0.268 | 270 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0609 | val Macro-F1 73.63 | alpha_rerata 0.268 | 258 dtk
+    [cfpb_CF2b_V4_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 3, val Macro-F1 73.69
+  -> selesai
+
+[8/8] cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42
+  $ /workspace/venv/bin/python /workspace/disertasi-laporgub/src/train.py --config ../configs/fase_f/cf_2c_V4_lrplm3e-5_lrbaru5e-4.yaml --dataset cfpb --fold 0 --data_dir /workspace/data --runs /workspace/runs_fase_f --cache_dir /workspace/cache_tfidf
+      TF-IDF fold 0: dari cache (30000 fitur)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    
+    Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]
+    Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5232.59it/s]
+    [transformers] [1mRobertaModel LOAD REPORT[0m from: roberta-base
+    Key                       | Status     |  |
+    --------------------------+------------+--+-
+    lm_head.layer_norm.bias   | UNEXPECTED |  |
+    lm_head.bias              | UNEXPECTED |  |
+    lm_head.layer_norm.weight | UNEXPECTED |  |
+    lm_head.dense.bias        | UNEXPECTED |  |
+    lm_head.dense.weight      | UNEXPECTED |  |
+    
+    Notes:
+    - UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 1: loss latih 0.8127 | val Macro-F1 69.72 | alpha_rerata 0.429 | 275 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 2: loss latih 0.4518 | val Macro-F1 72.83 | alpha_rerata 0.287 | 263 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 3: loss latih 0.2829 | val Macro-F1 72.95 | alpha_rerata 0.262 | 263 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 4: loss latih 0.1741 | val Macro-F1 73.45 | alpha_rerata 0.255 | 253 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 5: loss latih 0.1037 | val Macro-F1 73.59 | alpha_rerata 0.249 | 251 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 6: loss latih 0.0584 | val Macro-F1 72.65 | alpha_rerata 0.246 | 254 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 7: loss latih 0.0354 | val Macro-F1 73.88 | alpha_rerata 0.240 | 252 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 8: loss latih 0.0180 | val Macro-F1 73.00 | alpha_rerata 0.248 | 257 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 9: loss latih 0.0100 | val Macro-F1 73.23 | alpha_rerata 0.255 | 260 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] epoch 10: loss latih 0.0052 | val Macro-F1 73.92 | alpha_rerata 0.263 | 254 dtk
+    [cfpb_CF2c_V4_lrplm3e-5_lrbaru5e-4_L5_fold0_seed42] SELESAI: epoch terbaik 10, val Macro-F1 73.92
+  -> selesai
+
+=== Fase F selesai: 8/8 run berhasil -> /workspace/runs_fase_f/ringkasan_fase_F.csv ===

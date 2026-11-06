@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article below and the archived version of this repository."
+title: "Calibrated decision framework: code, case-study logs, and development history"
+authors:
+  - family-names: Hakim
+    given-names: Muhammad Malik
+    orcid: "https://orcid.org/0000-0001-6405-3417"
+    affiliation: "Universitas Diponegoro; Universitas Gadjah Mada"
+  - family-names: Priyambodo
+    given-names: Tri Kuntoro
+    affiliation: "Universitas Gadjah Mada"
+  - family-names: Mustofa
+    given-names: Khabib
+    affiliation: "Universitas Gadjah Mada"
+license: MIT
+repository-code: "https://github.com/masmalikh/calibrated-decision-framework"
+preferred-citation:
+  type: article
+  title: "Separating real gains from seed noise: a calibrated decision framework for fine-tuned transformer classifiers"
+  authors:
+    - family-names: Hakim
+      given-names: Muhammad Malik
+    - family-names: Priyambodo
+      given-names: Tri Kuntoro
+    - family-names: Mustofa
+      given-names: Khabib
+  journal: "MethodsX"
+  year: 2026
+  notes: "Manuscript prepared for MethodsX"

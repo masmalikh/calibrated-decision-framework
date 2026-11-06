@@ -1,0 +1,18 @@
+option,screening_seeds,screening_threshold,confirmation_seeds,positive_needed,p_false_no_effect,p_real_with_effect,expected_runs,overstatement
+best of one seed,1,-,0,-,0.941,0.499,17.0,-
+"screen 1 seed(s) at 1 x delta, confirm 2",1,1 x delta,2,2/2,0.156,0.373,28.1,0.41
+"screen 1 seed(s) at 1 x delta, confirm 3",1,1 x delta,3,2/3,0.12,0.427,32.1,0.25
+"screen 1 seed(s) at 1 x delta, confirm 4",1,1 x delta,4,3/4,0.087,0.43,36.2,0.19
+"screen 1 seed(s) at 1 x delta, confirm 5",1,1 x delta,5,4/5,0.064,0.442,40.6,0.15
+"screen 1 seed(s) at 0.5 x delta, confirm 2",1,0.5 x delta,2,2/2,0.222,0.449,32.5,0.44
+"screen 1 seed(s) at 0.5 x delta, confirm 3",1,0.5 x delta,3,2/3,0.171,0.517,38.8,0.27
+"screen 1 seed(s) at 0.5 x delta, confirm 4",1,0.5 x delta,4,3/4,0.122,0.534,45.1,0.19
+"screen 1 seed(s) at 0.5 x delta, confirm 5",1,0.5 x delta,5,4/5,0.09,0.529,51.6,0.16
+"screen 2 seed(s) at 1 x delta, confirm 2",2,1 x delta,2,2/2,0.106,0.398,42.9,0.36
+"screen 2 seed(s) at 1 x delta, confirm 3",2,1 x delta,3,2/3,0.087,0.453,45.9,0.22
+"screen 2 seed(s) at 1 x delta, confirm 4",2,1 x delta,4,3/4,0.062,0.473,48.8,0.17
+"screen 2 seed(s) at 1 x delta, confirm 5",2,1 x delta,5,4/5,0.047,0.473,51.7,0.14
+"screen 2 seed(s) at 0.5 x delta, confirm 2",2,0.5 x delta,2,2/2,0.194,0.509,47.7,0.4
+"screen 2 seed(s) at 0.5 x delta, confirm 3",2,0.5 x delta,3,2/3,0.154,0.57,53.1,0.25
+"screen 2 seed(s) at 0.5 x delta, confirm 4",2,0.5 x delta,4,3/4,0.109,0.59,58.3,0.18
+"screen 2 seed(s) at 0.5 x delta, confirm 5",2,0.5 x delta,5,4/5,0.079,0.597,63.9,0.15
