@@ -15,6 +15,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-8659-8677"
     affiliation: "Universitas Gadjah Mada"
 license: MIT
+doi: "10.5281/zenodo.24286518"
 repository-code: "https://github.com/masmalikh/calibrated-decision-framework"
 preferred-citation:
   type: article

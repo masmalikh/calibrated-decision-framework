@@ -1,5 +1,7 @@
 # Calibrated decision framework: code, case-study logs, and development history
 
+[![DOI](https://zenodo.org/badge/1448022263.svg)](https://doi.org/10.5281/zenodo.24286518)
+
 Code and audit material for the article:
 
 > Hakim, M. M., Priyambodo, T. K., & Mustofa, K. *Separating real gains from seed noise: a calibrated decision framework for fine-tuned transformer classifiers.* Manuscript prepared for MethodsX.
@@ -154,4 +156,4 @@ The complaint texts are not redistributed, because they are written freely by ci
 
 ## Citation
 
-Please cite the article above and the archived version of this repository on Zenodo: [ZENODO DOI].
+Please cite the article above and the archived version of this repository on Zenodo: https://doi.org/10.5281/zenodo.24286518 (this DOI always resolves to the latest version).
