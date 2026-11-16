@@ -143,7 +143,7 @@ Commit times are recorded by the authors' own computer. The bundle proves the co
 
 ## Data
 
-`data/laporgub_ids.csv` lists the 59,251 LaporGub complaints of the case study with their label, near-duplicate group, and fold assignment, and `data/label_laporgub.csv` gives the 29 classes of government affairs in Indonesian and English. Both files are identical copies of the files in the repository of the related classification study (checksums in `SHA256SUMS.txt`). The case study uses only the validation data of fold 0.
+`data/laporgub_ids.csv` lists the 59,251 LaporGub complaints of the case study with their date, regency or city, label, near-duplicate group, fold assignment, role (train, validation, or test) in each of the five folds, and the precomputed subword fragmentation features (`f_deg`, `f_deg_refined`), and `data/label_laporgub.csv` gives the 29 classes of government affairs in Indonesian and English. Both files are identical copies of the files in the repository of the related classification study (checksums in `SHA256SUMS.txt`). The case study uses only the validation data of fold 0.
 
 The complaint texts are not redistributed, because they are written freely by citizens and may contain personal information. Each complaint can be opened on the LaporGub portal of the Central Java Provincial Government at `https://laporgub.jatengprov.go.id/detail/<complaint_id>.html`. Please retrieve texts responsibly and avoid high-frequency automated requests.
 

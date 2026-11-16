@@ -1,0 +1,35 @@
+{
+  "title": "Calibrated decision framework: code, case-study logs, and development history",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "description": "<p>Code and audit material for the article <em>Separating real gains from seed noise: a calibrated decision framework for fine-tuned transformer classifiers</em> (M. M. Hakim, T. K. Priyambodo, K. Mustofa; manuscript submitted to MethodsX).</p><p>The framework decides whether a candidate design should replace the incumbent design of a fine-tuned transformer classifier when every training run is expensive. It has three components: a calibrated two-stage seed protocol, a planning simulator, and an audit trail. This archive holds the scripts behind every number in the Method validation section of the article, the run log of the case study (42 development runs on one NVIDIA H100), the decision log with its English translation, the git history of the development repository up to the end of development (git bundle), the test-opening audit file without test-score columns, the development console log, and the LaporGub complaint IDs, labels, and fold assignments (no complaint texts).</p><p>Licenses: code in <code>src/</code> and the code inside the git bundle are released under the MIT License; logs, results, IDs, labels, and folds are released under CC BY 4.0. See LICENSE and LICENSE-DATA.</p>",
+  "creators": [
+    {
+      "name": "Hakim, Muhammad Malik",
+      "affiliation": "Universitas Diponegoro; Universitas Gadjah Mada",
+      "orcid": "0000-0001-6405-3417"
+    },
+    {
+      "name": "Priyambodo, Tri Kuntoro",
+      "affiliation": "Universitas Gadjah Mada",
+      "orcid": "0000-0003-1906-7224"
+    },
+    {
+      "name": "Mustofa, Khabib",
+      "affiliation": "Universitas Gadjah Mada",
+      "orcid": "0000-0002-8659-8677"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "model selection",
+    "random seed variance",
+    "winner's curse",
+    "natural language processing",
+    "pre-trained language models",
+    "reproducibility",
+    "pre-registration"
+  ],
+  "notes": "Supported by the Indonesia Endowment Fund for Education (LPDP), Ministry of Finance of the Republic of Indonesia."
+}

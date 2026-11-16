@@ -19,7 +19,6 @@ effects = [0.5, 1.0, 1.5, 2.0]
 
 
 def band(rule, field, pts):
-    # pts: list of (sigma, effect); returns the rho = 0.5 line and its range over all rho
     vals = [[float(res[(rule, rho, s, e)][field]) for rho in RHOS] for s, e in pts]
     return [v[1] for v in vals], [min(v) for v in vals], [max(v) for v in vals]
 

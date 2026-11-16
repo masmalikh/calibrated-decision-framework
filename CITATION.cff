@@ -8,9 +8,11 @@ authors:
     affiliation: "Universitas Diponegoro; Universitas Gadjah Mada"
   - family-names: Priyambodo
     given-names: Tri Kuntoro
+    orcid: "https://orcid.org/0000-0003-1906-7224"
     affiliation: "Universitas Gadjah Mada"
   - family-names: Mustofa
     given-names: Khabib
+    orcid: "https://orcid.org/0000-0002-8659-8677"
     affiliation: "Universitas Gadjah Mada"
 license: MIT
 repository-code: "https://github.com/masmalikh/calibrated-decision-framework"
